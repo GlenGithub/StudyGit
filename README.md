@@ -208,7 +208,7 @@ git reset命令 既可以回退版本（commit之后），也可以把暂存区�
 >在Git工作区的根目录下创建一个特殊的`.gitignore`文件，然后把要忽略的文件名填进去，Git就会自动忽略这些文件;<p>
 >不需要从头写`.gitignore`文件，GitHub已经为我们准备了各种[配置文件](https://github.com/github/gitignore).<p>
 >最后一步就是把`.gitignore`也提交到Git，就完成了<p>
->你想添加一个文件到Git，但发现添加不了，原因是这个文件被.gitignore忽略了
+>你想添加一个文件到Git，但发现添加不了，原因是这个文件被`.gitignore`忽略了
 - `git add App.class`
 >如果你确实想添加该文件，可以用-f强制添加到Git
 - `git add -f App.class`
