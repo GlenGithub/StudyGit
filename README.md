@@ -4,7 +4,7 @@
 ![这里写图片描述](http://img.blog.csdn.net/20180201155022278?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZ2xlbjE5NDM=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 ### 工作区 
-> <p>还原被修改的文件，命令中的--很重要，没有`--`，就变成了“切换到另一个分支”的命令<p>
+> <p>还原被修改的文件，命令中的--很重要，没有 --，就变成了“切换到另一个分支”的命令<p>
  - `git checkout -- file`    
 > <p>添加文件到暂存区<p>
  - `git add file...  `      
@@ -205,12 +205,9 @@ git reset命令 既可以回退版本（commit之后），也可以把暂存区�
 
 
 ## 忽略特殊文件：
-
->在Git工作区的根目录下创建一个特殊的`.gitignore`文件，然后把要忽略的文件名填进去，Git就会自动忽略这些文件;
-
->不需要从头写`.gitignore`文件，GitHub已经为我们准备了各种[配置文件](https://github.com/github/gitignore).
-
->最后一步就是把`.gitignore`也提交到Git，就完成了
+>在Git工作区的根目录下创建一个特殊的`.gitignore`文件，然后把要忽略的文件名填进去，Git就会自动忽略这些文件;<p>
+>不需要从头写`.gitignore`文件，GitHub已经为我们准备了各种[配置文件](https://github.com/github/gitignore).<p>
+>最后一步就是把`.gitignore`也提交到Git，就完成了<p>
 >你想添加一个文件到Git，但发现添加不了，原因是这个文件被.gitignore忽略了
 - `git add App.class`
 >如果你确实想添加该文件，可以用-f强制添加到Git
