@@ -1,5 +1,5 @@
 
-## 推荐博客：<a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank"> 廖雪峰Git教程
+## 推荐博客：<a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank">廖雪峰Git教程
 
 ![这里写图片描述](http://img.blog.csdn.net/20180201155022278?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZ2xlbjE5NDM=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
