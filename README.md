@@ -19,12 +19,12 @@
 git status  查看文件状态
 git reset命令 既可以回退版本（commit之后），也可以把暂存区的修改回退到工作区（未commit）。当我们用HEAD时，表示最新的版本。
 
-> 只有`git add`并且`commit`之后才能执行`git rm file`；<p>
+> （新增文件）只有`git add`并且`commit`之后才能执行`git rm file`；<p>
 > 执行`git rm`命令后未执行`commit`，可通过`git reset HEAD file` 还原到工作区，再通过`git checkout -- file` 还原删除操作<p>
 > 执行`git rm`命令后执行`commit`，可通过`git reset`命令既可以回退版本
 
 >**注：**
-如果在当前工作区内`test.txt`的修改未提交 `git rm test.txt` 不会删除文件而会报错。
+如果在当前工作区内`test.txt`的修改(新增test.txt)未commit ,`git rm test.txt` 会报错。
 另外，`git rm --cached test.txt` 会在文件系统中保留`test.txt`，但版本库中的会被删除。
 
 
